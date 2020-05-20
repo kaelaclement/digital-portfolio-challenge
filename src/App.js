@@ -14,14 +14,15 @@ const App = () => {
   return (
     <div className='App'>
       <Navbar />
-
-      <Switch>
-        <Route exact path='/' component={Home} />
-        <Route path='/about' component={About} />
-        <Route path='/employment' component={Employment} />
-        <Route path='/projects' component={Projects} />
-        <Route path='/contact' component={Contact} />
-      </Switch>
+      <div className='content'>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/employment' component={Employment} />
+          <Route path='/projects' component={Projects} />
+          <Route path='/contact' component={Contact} />
+        </Switch>
+      </div>
 
       <Footer />
     </div>
