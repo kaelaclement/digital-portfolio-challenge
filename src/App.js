@@ -8,6 +8,7 @@ import Navbar from './components/Navbar';
 import Employment from './components/Employment';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -21,6 +22,8 @@ const App = () => {
         <Route path='/projects' component={Projects} />
         <Route path='/contact' component={Contact} />
       </Switch>
+
+      <Footer />
     </div>
   );
 }
