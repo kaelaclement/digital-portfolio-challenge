@@ -5,6 +5,7 @@ import './App.css';
 import About from './components/About';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
+import Employment from './components/Employment';
 
 const App = () => {
   return (
@@ -12,8 +13,9 @@ const App = () => {
       <Navbar />
 
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
+        <Route exact path='/' component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/employment' component={Employment} />
       </Switch>
     </div>
   );
