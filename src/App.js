@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Employment from './components/Employment';
 import Projects from './components/Projects';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path='/about' component={About} />
         <Route path='/employment' component={Employment} />
         <Route path='/projects' component={Projects} />
+        <Route path='/contact' component={Contact} />
       </Switch>
     </div>
   );
