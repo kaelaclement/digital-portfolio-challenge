@@ -5,8 +5,8 @@ const Projects = () => {
 		<div>
 			<h1>Projects</h1>
 			<ul>
-				<li>Think It Over</li>
-				<li>How To Veg</li>
+				<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/kaelaclement/think-it-over'>Think It Over</a></li>
+				<li><a target='_blank' rel='noopener noreferrer' href='https://github.com/kaelaclement/how-to-veg'>How To Veg</a></li>
 			</ul>
 		</div>
 	)
