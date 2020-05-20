@@ -2,7 +2,7 @@ import React from 'react';
 
 const Employment = () => {
 	return (
-		<div>
+		<div className='employment'>
 			<h1>Employment</h1>
 			<p>An apprentice DevOps engineer with TalkTalk. Love backend, but React is pretty cool. Looking forward to understanding what anything means soon.</p>
 			<ul>
