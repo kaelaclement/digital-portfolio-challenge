@@ -37,3 +37,35 @@
   text-align: justify;
   margin: 0 20em;
 }
+
+.employment {
+  margin: 0 20em;
+}
+
+.experience {
+  float: left;
+}
+
+.experience h1 {
+  padding: .5em;
+  background-color: white;
+}
+
+.experience h1:hover {
+  background-color: black;
+  color: white;
+}
+
+.skills {
+  float: right;
+}
+
+.skills h1 {
+  padding: .5em 1em;
+  background-color: white;
+}
+
+.skills h1:hover {
+  background-color: black;
+  color: white;
+}
