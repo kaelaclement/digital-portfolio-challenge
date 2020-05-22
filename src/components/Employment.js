@@ -20,9 +20,16 @@ class Employment extends React.Component {
 	handleSkillsMouseOver = () => {
 		this.setState({
 			skills: [
-				"React, I guess",
 				"Ruby",
-				"JS is ok"
+				"JavaScript",
+				"SQL",
+				"HTML5",
+				"CSS",
+				"Ruby on Rails",
+				"SQLite",
+				"PostgreSQL",
+				"React",
+				"Redux"
 			]
 		})
 	}

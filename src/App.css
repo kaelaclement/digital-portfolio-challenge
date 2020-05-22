@@ -69,3 +69,32 @@
   background-color: black;
   color: white;
 }
+
+.projectsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.project {
+  padding: 1em 5em;
+  text-align: justify;
+}
+
+.projectTitle {
+  font-size: 2em;
+  padding-right: .5em;
+}
+
+.projectLinks {
+  font-style: italic;
+}
+
+.projectLinks a {
+  padding: 0 .25em;
+  text-decoration: none;
+  color: rgb(79, 79, 212);
+}
+
+.projectLinks a:hover {
+  text-transform: uppercase;
+}
