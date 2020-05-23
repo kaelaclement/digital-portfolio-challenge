@@ -5,15 +5,19 @@ class Employment extends React.Component {
 
 	state = {
 		experience: [],
-		skills: []
+		skills: [],
+		experienceHovered: false,
+		skillsHovered: false
 	}
 
 	handleExperienceMouseOver = () => {
+		console.log(this);
 		this.setState({
 			experience: [
 				{ title: "Apprentice DevOps Engineer", responsibilities: ["Idk yet", "not exactly", "there will be plenty", "just learning for now"] },
 				{ title: "Personal Assistant", responsibilities: ["did stuff", "this is also a test"] }
-			]
+			],
+			experienceHovered: true
 		})
 	}
 
@@ -30,7 +34,8 @@ class Employment extends React.Component {
 				"PostgreSQL",
 				"React",
 				"Redux"
-			]
+			],
+			skillsHovered: true
 		})
 	}
 
@@ -43,13 +48,17 @@ class Employment extends React.Component {
 			return <li key={index}>{skill}</li>
 		})
 
+		const experienceClass = this.state.experienceHovered ? 'experienceHovered' : 'experience';
+
+		const skillsClass = this.state.skillsHovered ? 'skillsHovered' : 'skills';
+
 		return (
 			<div className='employment'>
-				<div className='experience'>
+				<div className={experienceClass}>
 					<h1 onMouseOver={this.handleExperienceMouseOver}>Experience</h1>
 					{experience}
 				</div>
-				<div className='skills'>
+				<div className={skillsClass}>
 					<h1 onMouseOver={this.handleSkillsMouseOver}>Skills</h1>
 					<ul>
 						{skills}
