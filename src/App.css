@@ -102,3 +102,14 @@
 .projectLinks a:hover {
   text-transform: uppercase;
 }
+
+.cv {
+  display: flex;
+  justify-content: center;
+  padding: 5em;
+}
+
+#root > div > div.content > div > div > div > div.react-pdf__Page__textContent,
+#root > div > div.content > div > div > div > div.react-pdf__Page__annotations.annotationLayer {
+  display: none;
+}

@@ -9,6 +9,7 @@ import Employment from './components/Employment';
 import Projects from './components/Projects';
 // import Contact from './components/Contact';
 import Footer from './components/Footer';
+import CV from './components/CV';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
           <Route path='/about' component={About} />
           <Route path='/employment' component={Employment} />
           <Route path='/projects' component={Projects} />
+          <Route path='/cv' component={CV} />
           {/* <Route path='/contact' component={Contact} /> */}
         </Switch>
       </div>
